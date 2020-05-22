@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.container {
+    display: flex;
+    background: url("images/crwd-bg.png");
+    min-height: 100vh !important;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.showcase {
+    background: url("images/gamesAdv.png") no-repeat center;
+    height: 40vh;
+    min-width: 100vw;
+}
+
+.backLink a{
+    color: #FFF;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.hr {
+    border: .5px solid rgba(255, 255, 255, .87);
+}
+
+.paper {
+    background: red;
+}
+
+.update {
+    /*padding-bottom: 600px;*/
+    height: 100%;
+}

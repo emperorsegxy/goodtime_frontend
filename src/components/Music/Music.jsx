@@ -32,7 +32,7 @@ const music = () => {
                     </ThemeProvider>
                     <div className={`${styles.links} row justify-content-between`}>
                         <div className={`col-md-6 d-flex justify-content-center align-items-center`}>
-                            <div className={`${styles.viewBtn}`}>
+                            <div className={`${styles.viewBtn} text-center`}>
                                 <a href="#">VIEW PLAYLIST</a>
                             </div>
                         </div>

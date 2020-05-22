@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Places from './components/Places';
 import Music from './components/Music/Music.jsx';
 import PlaceModal from './components/PlacesModal';
+import Games from "./components/Games/Games";
 
 class App extends Component{
     render(){
@@ -15,6 +16,7 @@ class App extends Component{
                     <Route path="/explore-places" component={Places} />
                     <Route path="/explore-places-category" component={PlaceModal}/>
                     <Route path="/music" component={Music} />
+                    <Route path="/games" component={Games} />
                 </Layout>
             </div>
         );

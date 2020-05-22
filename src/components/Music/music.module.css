@@ -1,0 +1,42 @@
+.container {
+
+}
+
+.links {
+    width: 45%;
+    margin-top: 30px;
+}
+
+.links a {
+    color: #FFF;
+    text-decoration: underline;
+    font-family: 'Nunito sans', sans-serif;
+    font-size: 16px;
+    opacity: .86;
+    /*padding: 16px 16px;*/
+    transition: opacity .3s ease-in-out;
+}
+
+.links a:hover {
+    opacity: 1;
+}
+
+.createBtn {
+    background: #FFD13C;
+    padding: 12px 15px;
+    min-width: 218px;
+}
+
+.viewBtn {
+    background: transparent;
+    padding: 12px 15px;
+    min-width: 218px;
+}
+
+
+@media (max-width: 1022px) {
+    /*.links a {*/
+    /*    !*font-size: 14px;*!*/
+    /*    display: block !important;*/
+    /*}*/
+}

@@ -31,7 +31,14 @@ const Games = () => {
     const classes = useStyle();
 
     return (
-        <div className={myStyles.container}>
+        <div className={myStyles.container}
+             style={{
+                 backgroundImage: `url(${require('./images/crwd-bg.png')})`,
+                 backgroundPosition: 'center',
+                 backgroundSize: 'cover',
+                 backgroundRepeat: 'no-repeat',
+             }}
+        >
             <div className={`${myStyles.showcase}`}>
                 <div className="container h-100 w-100 d-flex justify-content-around flex-column">
                     <div className={`${myStyles.backLink} d-flex justify-content-end`}>

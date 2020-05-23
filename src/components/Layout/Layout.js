@@ -4,7 +4,7 @@ import React from 'react';
 const layout = (props) => (
     <React.Fragment>
         <div></div>
-        <main className="Content">
+        <main className="h-100">
             {props.children}
         </main>
     </React.Fragment>

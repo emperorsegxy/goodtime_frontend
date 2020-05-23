@@ -2,7 +2,7 @@
 
 .container {
     display: flex;
-    background: url("images/crwd-bg.png");
+    /*background: url("images/crwd-bg.png");*/
     min-height: 100vh !important;
     flex-direction: column;
     overflow: hidden;
@@ -22,6 +22,7 @@
 
 .hr {
     border: .5px solid rgba(255, 255, 255, .87);
+    margin-bottom: 100px;
 }
 
 .paper {
@@ -31,4 +32,8 @@
 .update {
     /*padding-bottom: 600px;*/
     height: 100%;
+}
+
+.MuiTypography-h3 {
+    color: red !important;
 }

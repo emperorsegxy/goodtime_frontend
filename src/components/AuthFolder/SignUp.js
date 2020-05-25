@@ -32,8 +32,8 @@ export default class SignUp extends React.Component {
         return (
             
             <div>
-                <button onClick={this.onOpenModal} className="btn btn-primary">Sign Up</button>
-                <Modal open={open} onClose={this.onCloseModal}>
+                {/* <button onClick={this.onOpenModal} className="btn btn-primary">Sign Up</button>
+                <Modal open={open} onClose={this.onCloseModal}> */}
                     <div className="container">
                     <div className="row">
                     </div>
@@ -81,7 +81,7 @@ export default class SignUp extends React.Component {
                     </div>
                     </div>
                     </div>
-                </Modal>
+                {/* </Modal> */}
             </div>
         );
     }

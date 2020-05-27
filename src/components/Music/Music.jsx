@@ -38,7 +38,7 @@ const music = () => {
                         </div>
                         <div className="col-md-6 d-flex justify-content-center align-items-center">
                             <div className={`${styles.createBtn}`}>
-                                <a href="#">CREATE YOUR PLAYLIST</a>
+                                <a href="/create-playlists">CREATE YOUR PLAYLIST</a>
                             </div>
                         </div>
                     </div>

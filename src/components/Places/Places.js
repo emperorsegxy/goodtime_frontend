@@ -1,19 +1,19 @@
 import React from 'react';
-import '../css/places.css';
-import Logo from '../images/logo2.svg';
-import RedCircle from '../images/circ3.svg';
-import BlueCircle from '../images/circ1.svg';
-import GreenCircle from '../images/circ2.svg';
-import YellowCircle from '../images/circ4.svg';
-import PurpleCircle from '../images/circ6.svg';
-import OrangeCircle from '../images/circ9.svg';
+import '../../css/places.css';
+import Logo from '../../images/logo2.svg';
+import RedCircle from '../../images/circ3.svg';
+import BlueCircle from '../../images/circ1.svg';
+import GreenCircle from '../../images/circ2.svg';
+import YellowCircle from '../../images/circ4.svg';
+import PurpleCircle from '../../images/circ6.svg';
+import OrangeCircle from '../../images/circ9.svg';
 import PlaceModal from './PlacesModal';
 
 const places = () => {
     return(
         <div className="bg"
         style={{
-          backgroundImage: `url(${require('../images/expImg.svg')})`,
+          backgroundImage: `url(${require('../../images/expImg.svg')})`,
           backgroundPosition: 'center',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',

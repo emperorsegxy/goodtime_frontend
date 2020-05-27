@@ -1,15 +1,15 @@
 import React from 'react';
-import Logo from '../images/logo.svg';
-import Games from '../images/games.svg'
-import Music from '../images/music.svg';
-import Places from '../images/explore.svg';
-import RedCircle from '../images/circ3.svg';
-import BlueCircle from '../images/circ1.svg';
-import GreenCircle from '../images/circ2.svg';
-import YellowCircle from '../images/circ4.svg';
-import SmallCircle from '../images/circ5.svg';
-import Hangout from '../images/hangout.svg';
-import '../css/home.css';
+import Logo from '../../images/logo.svg';
+import Games from '../../images/games.svg'
+import Music from '../../images/music.svg';
+import Places from '../../images/explore.svg';
+import RedCircle from '../../images/circ3.svg';
+import BlueCircle from '../../images/circ1.svg';
+import GreenCircle from '../../images/circ2.svg';
+import YellowCircle from '../../images/circ4.svg';
+import SmallCircle from '../../images/circ5.svg';
+import Hangout from '../../images/hangout.svg';
+import '../../css/home.css';
 
 const home = () => {
     return(

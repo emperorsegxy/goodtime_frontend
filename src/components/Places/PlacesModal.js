@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/places.css';
+import '../../css/places.css';
 import { makeStyles } from '@material-ui/core/styles';
 import InputLabel from '@material-ui/core/InputLabel';
 import FormHelperText from '@material-ui/core/FormHelperText';
@@ -41,7 +41,7 @@ const PlaceModal = () => {
 
         <div className="bg"
         style={{
-          backgroundImage: `url(${require('../images/expImg.svg')})`,
+          backgroundImage: `url(${require('../../images/expImg.svg')})`,
           backgroundPosition: 'center',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',

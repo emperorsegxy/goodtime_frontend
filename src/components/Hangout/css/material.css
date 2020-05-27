@@ -1,0 +1,10 @@
+.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    background: red !important;
+}
+
+
+@media (max-width: 768px) {
+    .MuiDrawer-paperAnchorBottom {
+        width: 93% !important;
+    }
+}

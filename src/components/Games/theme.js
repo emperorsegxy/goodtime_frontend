@@ -12,6 +12,7 @@ const theme = createMuiTheme({
         h6: {
             fontFamily: "'Nunito Sans', sans serif",
             color: '#FFF',
+            marginTop: 40,
         },
         h5: {
             color: '#FFF',

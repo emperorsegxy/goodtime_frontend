@@ -7,11 +7,12 @@ import Music from './components/Music/Music.jsx';
 import PlaceModal from './components/Places/PlacesModal';
 import CreatePlaylists from './components/Music/CreatePlaylist/CreatePlaylists';
 import Games from "./components/Games/Games";
+import Hangouts from "./components/Hangout/Hangouts";
 
 class App extends Component{
     render(){
         return (
-            <div className="App">
+            <div className="h-100">
                 <Layout>
                     <Route path="/home" component={Home}/>
                     <Route path="/explore-places" component={Places} />
@@ -19,6 +20,7 @@ class App extends Component{
                     <Route path="/music" component={Music} />
                     <Route path="/create-playlists" component={CreatePlaylists}/>
                     <Route path="/games" component={Games} />
+                    <Route path="/hangouts" component={Hangouts} />
                 </Layout>
             </div>
         );

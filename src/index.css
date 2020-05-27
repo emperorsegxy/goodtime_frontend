@@ -1,3 +1,9 @@
+@font-face {
+  font-family: Gilroy;
+  src: url("/src/fonts/Gilroy-ExtraBold 800.otf");
+  font-weight: bold;
+}
+
 html, body, #root {
   height: 100%;
 }

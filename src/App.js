@@ -7,6 +7,7 @@ import Music from './components/Music/Music.jsx';
 import PlaceModal from './components/PlacesModal';
 import Games from "./components/Games/Games";
 import Hangouts from "./components/Hangout/Hangouts";
+import Login from './components/Login/Login'
 
 class App extends Component{
     render(){
@@ -19,6 +20,8 @@ class App extends Component{
                     <Route path="/music" component={Music} />
                     <Route path="/games" component={Games} />
                     <Route path="/hangouts" component={Hangouts} />
+                    <Route path="/login" component={Login} />
+
                 </Layout>
             </div>
         );

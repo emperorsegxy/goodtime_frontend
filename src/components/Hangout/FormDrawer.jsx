@@ -16,19 +16,26 @@ import { makeStyles, withStyles } from "@material-ui/core/styles";
 
 const StyledButton = withStyles({
     root: {
+        background: 'rgba(0, 0, 0, 0.59)',
+        padding: '8px 40px !important',
+        borderRadius: 0,
+        border: '2px solid rgba(0, 0, 0, 0.59)',
+        marginTop: 20,
         color: 'white',
-        background: '#FF4D3D',
-        border: '2px solid #FF4D3D',
-        width: '100%'
-    }
+        textDecoration: 'underline',
+        outline: 'none !important',
+        transition: 'all 0.5s ease-in',
+        '&:$hover': {
+            color: '#fafafa',
+        }
+    },
 })(Button);
 
 const FormDrawer = (props) => {
 
     const useStyles = makeStyles((theme) => ({
-        formControl: {
-            // margin: theme.spacing(1),
-            // minWidth: 120,
+        button: {
+            width: '100%',
         },
         selectEmpty: {
             marginTop: theme.spacing(2),
@@ -93,7 +100,7 @@ const FormDrawer = (props) => {
                     <option>Other</option>
                 </select>
             </div>
-            <StyledButton>Get me in</StyledButton>
+            <Button className={classes.button}>Get me in</Button>
         </form>);
     }
 
@@ -125,7 +132,7 @@ const FormDrawer = (props) => {
                     <option>Other</option>
                 </select>
             </div>
-            <StyledButton>Get me in</StyledButton>
+            <Button className={classes.button}>Get me in</Button>
         </form>);
     }
 
@@ -142,9 +149,9 @@ const FormDrawer = (props) => {
     return (
         <React.Fragment>
             <ThemeProvider theme={theme}>
-                <Button onClick={toggleDrawer(true)}>
+                <StyledButton onClick={toggleDrawer(true)}>
                     GET STARTED
-                </Button>
+                </StyledButton>
                 <SwipeableDrawer anchor='bottom' onClose={toggleDrawer(false)} onOpen={toggleDrawer(true)} open={open}>
                     {form()}
                 </SwipeableDrawer>

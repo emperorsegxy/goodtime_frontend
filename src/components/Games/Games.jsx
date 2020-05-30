@@ -63,7 +63,7 @@ const Games = () => {
                     <hr className={myStyles.hr} />
                     <Grid container wrap="nowrap" style={{overflowX: 'scroll'}} spacing={7}>
                         {data.map((res, index) => {
-                            return (<Grid item>
+                            return (<Grid item key={index}>
                                 <Paper style={paper(res.imgSrc)} square className={classes.paperRoot}>
                                     <ThemeProvider theme={theme}>
                                         <Typography variant="h5">

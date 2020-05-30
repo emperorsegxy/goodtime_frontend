@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Button from "@material-ui/core/Button";
 import FormDrawer from "./FormDrawer";
 import Typography from "@material-ui/core/Typography";
+import LinkUpAndPlacesDrawer from "./LinkUpAndPlacesDrawer";
 
 class Hangouts extends Component {
 
@@ -48,6 +49,7 @@ class Hangouts extends Component {
                 <Typography style={this.h4Styles} variant="h4">LINKUP & HANGOUT</Typography>
                 <Typography style={this.h4Family} variant="h4">WITH FAMILY & FRIENDS</Typography>
                 <FormDrawer makeBlur={this.state.makeBlur} />
+                <LinkUpAndPlacesDrawer makeBlur={this.state.makeBlur} />
             </div>
         );
     }

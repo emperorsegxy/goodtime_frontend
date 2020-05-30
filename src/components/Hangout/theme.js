@@ -25,13 +25,14 @@ const theme = createMuiTheme({
 
         MuiButton: {
             root: {
-                background: 'rgba(0, 0, 0, 0.59)',
-                padding: '8px 40px !important',
-                borderRadius: 'none',
-                marginTop: 20,
-                color: 'white',
-                textDecoration: 'underline',
-                outline: 'none !important',
+                padding: '12px 10px',
+                color: '#FFF',
+                background: '#FF4D3D',
+                border: '1px solid #FF4D3D',
+                marginTop: 0,
+                textDecoration: 'none',
+                borderRadius: 8,
+                outline: "none",
             }
         }
     }

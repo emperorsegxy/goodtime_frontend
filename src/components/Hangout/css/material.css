@@ -3,8 +3,14 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
     .MuiDrawer-paperAnchorBottom {
         width: 93% !important;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 500px){
+    .MuiDrawer-paperAnchorBottom {
+        width: 70% !important;
     }
 }

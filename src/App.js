@@ -8,6 +8,7 @@ import PlaceModal from './components/Places/PlacesModal';
 import CreatePlaylists from './components/Music/CreatePlaylist/CreatePlaylists';
 import Games from "./components/Games/Games";
 import Hangouts from "./components/Hangout/Hangouts";
+import GamesHome from "./components/Games/GamesHome";
 
 class App extends Component{
     render(){
@@ -21,6 +22,7 @@ class App extends Component{
                     <Route path="/create-playlists" component={CreatePlaylists}/>
                     <Route path="/games" component={Games} />
                     <Route path="/hangouts" component={Hangouts} />
+
                 </Layout>
             </div>
         );

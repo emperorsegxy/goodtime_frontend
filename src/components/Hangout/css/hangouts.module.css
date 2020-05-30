@@ -12,6 +12,14 @@
     align-items: center;
 }
 
+.linkUpHeader {
+    width: 90%;
+    margin:  0 auto 20px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .formTitle h5 {
     cursor: pointer;
     user-select: none;

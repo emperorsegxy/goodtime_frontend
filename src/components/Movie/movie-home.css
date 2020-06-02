@@ -1,0 +1,251 @@
+.background-img {
+    background:url('./images/background.png') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.background-img2 {
+    background:url('./images/background2.png') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 400px;
+}
+
+.back-movie:hover{
+    text-decoration: none;
+    color:  #9FE287;
+}
+
+.back-movie{
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: larger;
+    margin-top: 40px;
+    color: #FFFFFF;
+}
+
+
+.logo{
+    float: left;
+    margin: 50px 0px 0px 0px;
+    height: 100px;
+    width: 100px;
+}
+
+.top-text-home{
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 33px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.ellipse1{
+    float: right;
+    position: relative;
+    margin-top: 50px;
+    margin-left: auto;
+    height: 100px;
+    width: 100px;
+    opacity: 0.8;
+}
+
+.ellipse2{
+    float: right;
+    position: relative;
+    margin-top: 50px;
+    margin-left: auto;
+    height: 50px;
+    width: 50px;
+    opacity: 0.3;
+}
+
+.ellipse3{
+    float: left;
+    position: relative;
+    margin-top: 80px;
+    margin-left: auto;
+    height: 50px;
+    width: 50px;
+    opacity: 0.3;
+}
+
+.ellipse4{
+    float: left;
+    position: relative;
+    margin-top: -30px;
+    margin-left: auto;
+    height: 50px;
+    width: 50px;
+    opacity: 0.3;
+}
+
+.ellipse5{
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+    height: 50px;
+    width: 50px;
+    opacity: 0.3;
+}
+
+.ellipse6{
+    float: left;
+    position: relative;
+    margin-top: 30px;
+    margin: auto;
+    margin-left: 50px;
+    height: 50px;
+    width: 50px;
+    opacity: 0.3;
+}
+
+.main-text-home{
+    width: 100%;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800px;
+    font-size: 64px;
+    line-height: 78px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.btn-home{
+
+    background: #9FE287;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    border-radius: 4px;
+    border: none;
+    padding: 10px;
+    color: #FFFFFF;
+
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .main-text-home{
+        font-weight: 800;
+        font-size: 30px;
+    }  
+
+    .logo{
+        float: left;
+        margin: 25px 0px 0px 25px;
+        height: 80px;
+        width: 80px;
+    }
+    
+    .top-text-home{    
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .btn-home{
+        font-size: 20px;
+    }
+
+    .ellipse1{
+        margin-top: 50px;
+        margin-left: auto;
+        height: 50px;
+        width: 50px;
+    }
+
+    .ellipse2{
+
+        margin-top: 20px;
+        margin-left: auto;
+        height: 30px;
+        width: 30px;
+    }
+    
+    .ellipse3{
+        margin-top: 80px;
+        margin-left: auto;
+        height: 30px;
+        width: 30px;
+    }
+    
+    .ellipse4{
+        margin-top: -20px;
+        margin-left: auto;
+        height: 20px;
+        width: 20px;
+    }
+    .ellipse5{
+        margin-top: 50px;
+        height: 20px;
+        width: 20px;
+    }
+    
+    .ellipse6{
+
+        margin-top: 30px;
+        margin: auto;
+        margin-left: 50px;
+        height: 20px;
+        width: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .main-text{
+        font-weight: 800;
+        font-size: 25px;
+        text-align: center;
+    }
+    .back-movie{
+        margin-right: 20px;
+    }  
+
+    .logo{
+        float: left;
+        margin: 25px 0px 0px 25px;
+        height: 80px;
+        width: 80px;
+    }
+    
+    .top-text-home{
+    
+        font-size: 10px;
+    }
+
+    .page-btn{
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .ellipse6{
+        margin-top: 50px;
+        margin-left: auto;
+        height: 50px;
+        width: 50px;
+    }
+    .ellipse1{
+        margin-top: 50px;
+        margin-left: auto;
+        height: 40px;
+        width: 40px;
+    }
+}

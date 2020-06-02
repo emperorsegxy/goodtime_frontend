@@ -10,6 +10,7 @@
     "bootstrap": "^4.5.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-responsive-modal": "^5.0.2",
     "react-s-alert": "^1.4.1",
     "react-scripts": "3.4.1"
   },

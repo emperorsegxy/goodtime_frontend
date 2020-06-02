@@ -1,0 +1,181 @@
+.main{
+    height: 100%;
+}
+
+.form-container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.icons{
+    list-style: none;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.icons li{
+    display: inline-block;
+}
+
+.text{
+    font-family: Gilroy;
+    font-style: normal;
+    font-size: larger;
+    text-align: center;
+    margin-top: 20px;
+    color: grey;
+}
+
+
+.btn-text{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+}
+
+
+.alignleft {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 44px;
+    display: flex;
+    color: grey;
+    float: left;
+    opacity: 0.4;
+    margin-top: 20px;
+    margin: 20px 0px 20px 0px;
+}
+.alignright {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 44px;
+    display: flex;
+    color: grey;
+    float: right;
+    margin: 20px 0px 20px 0px;
+}
+
+.alignleft-sign {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 44px;
+    display: flex;
+    color: grey;
+    float: left;
+    margin-top: 20px;
+    margin: 20px 0px 20px 0px;
+}
+
+.alignright-sign {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 44px;
+    display: flex;
+    color: grey;
+    float: right;
+    opacity: 0.4;
+    margin: 20px 0px 20px 0px;
+}
+
+
+.form-size{
+    width: 100%;
+    background: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    opacity: 0.8;
+    box-shadow: 0px 10px 20px 1px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+}
+
+.create-btn{
+
+    height: 50px;
+    width: 100%;
+    background: #FF4D3D;
+    border: 2px solid #FF4D3D;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 10px 15px 15px 15px;
+    margin-top: 20px;
+}
+
+.create-btn-text{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.form-input{
+    width: 100%;
+    height: 50px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+
+.form-group label{
+    color: grey;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+
+@media screen and (min-width: 700px) {
+    .form-size{
+        max-width: 500px;
+    }  
+}
+
+@media screen and (max-width: 400px) {
+
+    .create-btn-text{
+        font-size: larger;
+    }
+    
+
+.alignleft {
+
+    font-size: 20px;
+}
+.alignright {
+
+    font-size: 20px;
+
+}
+
+.alignleft-sign {
+
+    font-size: 20px;
+}
+
+.alignright-sign {
+
+    font-size: 20px;
+
+}   
+}
+

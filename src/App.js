@@ -9,6 +9,7 @@ import CreatePlaylists from './components/Music/CreatePlaylist/CreatePlaylists';
 import Games from "./components/Games/Games";
 import Hangouts from "./components/Hangout/Hangouts";
 import GamesHome from "./components/Games/GamesHome";
+import GamesView from "./components/Games/GamesView";
 
 class App extends Component{
     render(){
@@ -21,6 +22,7 @@ class App extends Component{
                     <Route path="/music" component={Music} />
                     <Route path="/create-playlists" component={CreatePlaylists}/>
                     <Route path="/games" component={Games} />
+                    <Route path="/gamesView" component={GamesView} />
                     <Route path="/hangouts" component={Hangouts} />
 
                 </Layout>

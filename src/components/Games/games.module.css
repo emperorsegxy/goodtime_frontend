@@ -10,7 +10,7 @@
 
 .showcase {
     background: url("images/gamesAdv.png") no-repeat center;
-    height: 40vh;
+    height: 60vh;
     min-width: 100vw;
 }
 
@@ -36,4 +36,23 @@
 
 .MuiTypography-h3 {
     color: red !important;
+}
+
+.gamesViewBackground:before {
+    position: relative;
+}
+
+.gamesViewBackground:after {
+    content: '';
+    position: absolute;
+    background: black;
+    opacity: 0.26;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+}
+
+.gamesViewText {
+
 }

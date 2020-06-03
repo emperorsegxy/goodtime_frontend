@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Button from "@material-ui/core/Button";
+import styles from "./css/hangouts.module.css"
 import FormDrawer from "./FormDrawer";
 import Typography from "@material-ui/core/Typography";
 import LinkUpAndPlacesDrawer from "./LinkUpAndPlacesDrawer";
@@ -40,11 +40,9 @@ class Hangouts extends Component {
     render() {
         return (
             <div style={{
-                background: `url(${require('./images/hangouts.png')}) center center / cover no-repeat`,
-                height: '100%',
                 filter: `blur(${this.state.blur}px)`,
             }}
-            className="d-flex flex-column justify-content-center align-items-center"
+            className={`d-flex flex-column justify-content-center align-items-center ${styles.hangoutsBackground}`}
             >
                 <Typography style={this.h4Styles} variant="h4">LINKUP & HANGOUT</Typography>
                 <Typography style={this.h4Family} variant="h4">WITH FAMILY & FRIENDS</Typography>

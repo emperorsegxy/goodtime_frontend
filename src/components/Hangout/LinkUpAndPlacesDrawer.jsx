@@ -10,6 +10,7 @@ import Typography from "@material-ui/core/Typography";
 import {makeStyles} from "@material-ui/core/styles";
 import Divider from "@material-ui/core/Divider";
 import Grid from "@material-ui/core/Grid";
+import {Link} from "react-router-dom";
 
 const StyledButton = withStyles({
     root: {
@@ -149,14 +150,17 @@ const LinkUpAndPlacesDrawer = (props) => {
 
 
     const linkUpAndPlaces = () => (
-        <div role="presentation" className="h-100 pt-5 overflow-hidden">
-            <div className={styles.linkUpHeader}>
-                <h5 onClick={handleLinkUp} className={classes.header} style={currentForm === 'LINK_UP' ? {opacity: 1} : {opacity: .2}}>View LinkUp</h5>
-                <h5 onClick={handlePlaces} className={classes.header} style={currentForm === 'LINK_UP' ? {opacity: .2} : {opacity: 1}}>View Places</h5>
+        <div role="presentation" className="h-100 overflow-hidden">
+            <div className={styles.backLink}><Link to="/hangouts" onClick={toggleDrawer(false)}>Back Home</Link></div>
+            <div className={styles.presentation}>
+                <div className={styles.linkUpHeader}>
+                    <h5 onClick={handleLinkUp} className={classes.header} style={currentForm === 'LINK_UP' ? {opacity: 1} : {opacity: .2}}>View LinkUp</h5>
+                    <h5 onClick={handlePlaces} className={classes.header} style={currentForm === 'LINK_UP' ? {opacity: .2} : {opacity: 1}}>View Places</h5>
+                </div>
+                {currentForm === 'LINK_UP' ? returnLinkUp() :
+                    returnPlaces()
+                }
             </div>
-            {currentForm === 'LINK_UP' ? returnLinkUp() :
-                returnPlaces()
-            }
         </div>
     );
 

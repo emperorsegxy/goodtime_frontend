@@ -13,6 +13,7 @@ import InputLabel from "@material-ui/core/InputLabel";
 import Select from "@material-ui/core/Select";
 import MenuItem from "@material-ui/core/MenuItem";
 import { makeStyles, withStyles } from "@material-ui/core/styles";
+import {Link} from "react-router-dom";
 
 const StyledButton = withStyles({
     root: {
@@ -137,12 +138,17 @@ const FormDrawer = (props) => {
     }
 
     const form = () => (
-        <div role="presentation" className="h-100 pt-5 overflow-hidden">
-            <div className={styles.formTitle}>
-                <h5 onClick={handleLinkUp} style={currentForm === 'LINK_UP' ? {opacity: 1} : {opacity: .2}}>LinkUp</h5>
-                <h5 onClick={handleHangout} style={currentForm === 'LINK_UP' ? {opacity: .2} : {opacity: 1}}>Hangout</h5>
+        <div role="presentation" className="h-100 overflow-hidden">
+            <div className={styles.backLink}>
+                <Link to="/hangouts" onClick={toggleDrawer(false)}>Back Home</Link>
             </div>
-            {currentForm === 'LINK_UP' ? returnForm1() : returnForm2()}
+            <div className={styles.presentation}>
+                <div className={styles.formTitle}>
+                    <h5 onClick={handleLinkUp} style={currentForm === 'LINK_UP' ? {opacity: 1} : {opacity: .2}}>LinkUp</h5>
+                    <h5 onClick={handleHangout} style={currentForm === 'LINK_UP' ? {opacity: .2} : {opacity: 1}}>Hangout</h5>
+                </div>
+                {currentForm === 'LINK_UP' ? returnForm1() : returnForm2()}
+            </div>
         </div>
     );
 

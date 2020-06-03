@@ -23,13 +23,15 @@ const useStyles = makeStyles({
         border: '1px solid #FFD13C',
         background: 'transparent',
         color: '#FFF',
-        padding: '10px 38px',
+        width: 200,
+        marginBottom: 20,
     },
     shareLink: {
-        // border: '1px solid #FFD13C',
+        border: '1px solid #FE7603',
         background: '#C6990A',
         color: '#FFF',
-        padding: '10px 38px',
+        width: 200,
+        marginBottom: 20,
         '&:$hover': {
             background: '#C6990A',
             opacity: .78,
@@ -40,6 +42,10 @@ const useStyles = makeStyles({
 const GamesView = (props) => {
 
     const classes = useStyles();
+
+    const copyLink = (e) => {
+        console.log(window.location.href);
+    }
 
     return (
         <div
@@ -63,7 +69,7 @@ const GamesView = (props) => {
                         positive and quality assurance that defines which they become available
                     </Typography>
                     <div className={styles.actionBtns}>
-                        <Button className={classes.copyLink}>Copy Game Link</Button>
+                        <Button className={classes.copyLink} onClick={copyLink}>Copy Game Link</Button>
                         <Button className={classes.shareLink}>Share With Friends</Button>
                     </div>
                 </div>

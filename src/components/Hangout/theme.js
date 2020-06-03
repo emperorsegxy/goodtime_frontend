@@ -15,11 +15,12 @@ const theme = createMuiTheme({
             },
 
             paperAnchorBottom: {
-                height: '86%',
+                height: '96%',
                 width: '50%',
                 margin: '0 auto',
-                background: 'rgba(0, 0, 0, 0.76)',
+                background: 'transparent',
                 color: 'white',
+                boxShadow: 'none',
             }
         },
 

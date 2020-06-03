@@ -38,21 +38,37 @@
     color: red !important;
 }
 
-.gamesViewBackground:before {
+.gamesViewBackground {
     position: relative;
+    background: black;
+    opacity: 0.96;
+    height: 100vh;
+    color: white;
+    /*width: 100%;*/
 }
 
-.gamesViewBackground:after {
+.gamesViewBackground:before {
     content: '';
     position: absolute;
-    background: black;
-    opacity: 0.26;
-    height: 100%;
-    width: 100%;
+    background: url("./images/gamesAdv2.png") no-repeat center center/cover;
     top: 0;
-    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
 }
 
 .gamesViewText {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    flex-direction: column;
+}
 
+.actionBtns {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
 }
